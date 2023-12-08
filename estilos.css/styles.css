@@ -13,13 +13,13 @@ header {
 }
 
 main {
-    background-color: #6b70b931;
+    background-color: #a5afb431;
     text-align: center;
     padding: 2em;
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #cdd1cf;
     color: #fff;
     padding: 1em 2em;
     font-size: 1em;
@@ -38,7 +38,7 @@ body, html {
 
 .background-image {
     /* Ajuste o caminho para a sua imagem e o valor de cover conforme necessário */
-    background: url('./imagens/combate-fome-brasil.jpg') no-repeat center center fixed;
+    background: url('./combate-fome-brasil\ \(1\).jpg') no-repeat center center fixed;
     background-size: cover;
     height: 75vh;
     display: flex;
@@ -46,6 +46,15 @@ body, html {
     justify-content: center;
     color: #fff; 
 }
+.content {
+    text-align: center;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
 .content {
     text-align: center;
 }

@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css/styles.css">
+    <link rel="stylesheet" href="./estilos.css/style3.css">
+    <link rel="stylesheet" href="./estilos.css/botao.css">
+
     <title>Cadastro de Doador de Alimentos</title>
 </head>
 <body>
     <header>
         <h1>Cadastro de Doador de Alimentos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+            </ul>
+        </nav>
     </header>
 
     <main>
         <!-- Formulário de Cadastro de Doador de Alimentos aqui -->
         <form id="cadastroDoadorForm">
             <!-- Adicione os campos necessários para o cadastro de doador de alimentos -->
-            <label for="nomeDoador">Nome do Doador:</label>
+            <label for="nomeDoador">Nome da Empresa ou Doador:</label>
             <input type="text" id="nomeDoador" name="nomeDoador" required>
+
+            <label for="CNPJ/CPF">CNPJ/CPF:</label>
+            <input type="text" id="nomeDoador" name="nomeDoador" required>
+
 
             <label for="tipoAlimento">Tipo de Alimento:</label>
             <input type="text" id="tipoAlimento" name="tipoAlimento" required>
@@ -28,6 +40,12 @@
         </form>
     </main>
 
+    <section id="conteudo">
+        
+        <button onclick="voltarParaHome()">Voltar para o inicio</button>
+    </section>
+
+    <script src="./funcio.js/script.js"></script>
     
 </body>
 </html>

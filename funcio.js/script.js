@@ -17,3 +17,8 @@ function submitForm() {
 
     // Adicione aqui a lógica para enviar os dados para o servidor, se necessário.
 }
+
+
+function voltarParaHome() {
+    window.location.href = 'index.html';
+}
